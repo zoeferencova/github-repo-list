@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GitHub Repo List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>GitHub Repo List</h1>
+		<form id="js-form">
+			<label for="user">User:</label>
+			<input type="text" name="user" id="js-user" required>
+			<input type="submit" value="Search">
+		</form>
+		<p id="js-error-message" class="error-message"></p>
+		<section id="results" class="hidden">
+			<h2>Search results for user: </h2>
+			<ul id="results-list">
+				
+			</ul>
+		</section>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+#results-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#results-list li {
+	padding: 5px;
+}
